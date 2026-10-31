@@ -1,11 +1,3 @@
-# DR-AAD
-
-Modular Python implementation of **Descriptor-Guided Relational Representation Learning for Acoustic Machine Condition Monitoring**, based on the author's final manuscript supplied on October 31, 2026.
-
-**Implementation status:** this repository was written from the manuscript after its experiments. It is not the recovered historical experiment code. No original checkpoints, split manifests, or prediction files were supplied. The code computes results from audio; it does not contain the paper's result tables as executable outputs. Matching the reported numbers requires independent experiments and verification. See [implementation decisions](docs/IMPLEMENTATION_NOTES.md) before describing this repository as a reproduction.
-
-## What is implemented
-
 - Explicit 16-kHz waveform preparation, log-Mel patches, and the 11 Table I descriptors.
 - Residual-SE acoustic encoder, descriptor fusion, and **recording-level reconstruction from acoustic embeddings**, without a direct descriptor-input shortcut.
 - Positive-weight within-ID cosine relational alignment on distinct recording bags.
@@ -160,7 +152,3 @@ src/dr_aad/
   config.py         validated serializable configuration
   cli.py            command-line interface
 ```
-
-## Sharing and citation
-
-See [GitHub and manuscript code availability](docs/CODE_AVAILABILITY.md). `CITATION.cff` provides software author metadata without inventing a repository URL or DOI. Do not upload dataset audio, local caches, or experimental weights without reviewing their release terms. A software license must be selected by the authors before representing the repository as open-source licensed software.
