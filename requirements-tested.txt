@@ -1,0 +1,9 @@
+# Direct dependency versions used for the local synthetic tests, Python 3.10.16.
+# The test host had the CUDA 12.4 build of torch 2.5.1.
+# This is not a complete transitive lockfile or the original manuscript environment.
+numpy==1.26.3
+scipy==1.13.1
+torch==2.5.1
+librosa==0.11.0
+soundfile==0.14.0
+scikit-learn==1.6.1
