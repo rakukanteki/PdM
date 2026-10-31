@@ -1,3 +1,4 @@
+# DRAAD:
 - Explicit 16-kHz waveform preparation, log-Mel patches, and the 11 Table I descriptors.
 - Residual-SE acoustic encoder, descriptor fusion, and **recording-level reconstruction from acoustic embeddings**, without a direct descriptor-input shortcut.
 - Positive-weight within-ID cosine relational alignment on distinct recording bags.
